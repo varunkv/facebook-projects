@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.varun.facebook.profile">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#2518ab"
+        android:id="@+id/frameLayout2">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Search in Facebook"
+            android:id="@+id/textView11"
+            android:layout_gravity="left|top"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/textView12"
+            android:layout_gravity="left|center_vertical"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="9dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:id="@+id/textView13"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="120dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="Messages"
+            android:id="@+id/textView14"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:id="@+id/textView15"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="75dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat(20)"
+            android:id="@+id/textView16"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:id="@+id/textView17"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:id="@+id/textView18"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="75dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/textView19"
+            android:layout_gravity="right|top"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#5866ff" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_alignLeft="@+id/frameLayout2"
+        android:layout_alignStart="@+id/frameLayout2"
+        android:background="#8ac4bcff"
+        android:id="@+id/frameLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share with"
+            android:id="@+id/textView20"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:id="@+id/textView21"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginRight="90dp"
+            android:textStyle="bold"
+            android:textColor="#0f1c6b" />
+
+        <TextView
+            android:layout_width="307dp"
+            android:layout_height="84dp"
+            android:id="@+id/textView22"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="32dp"
+            android:text="Post"
+            android:id="@+id/textView23"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="30dp"
+            android:background="#2518ab"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Add photos"
+            android:id="@+id/textView24"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="15dp"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:id="@+id/textView25"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="15dp"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/profilepic" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Mohammed nisar"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/frameLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/nisar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="110 Likes"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#331042"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="55 comments"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/imageView4"
+        android:layout_toRightOf="@+id/textView26"
+        android:layout_toEndOf="@+id/textView26"
+        android:textStyle="bold"
+        android:textColor="#1b0f21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:textStyle="bold"
+        android:textColor="#191020" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+</RelativeLayout>
+
